@@ -1,5 +1,7 @@
 # Tugas-PBO-2
 Program Python yang berguna untuk mengelola Data Mahasiswa, Jurusan, dan Universitas
+Nama Mahasiswa : ALIF NURHIDAYAT
+NPM : G1A022073
 
 ## Pertanyaan:
 1. Implementasikan kelas Mahasiswa, Jurusan dan Universitas sesuai dengan spesifikasi yang diberikan.
