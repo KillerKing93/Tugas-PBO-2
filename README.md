@@ -258,10 +258,10 @@ if __name__ == "__main__":
 
 ## Tampilan Program Saat Dijalankan
 - Program pada saat pertama kali dijalankan : 
-![Program pada saat pertama kali dijalankan.](/../Gambar/Run0)
+![Program pada saat pertama kali dijalankan.](/../Gambar/Run0.png)
 - Program jika pengguna memasukkan perintah 'bantuan' :
-![Program pada saat pertama kali dijalankan.](/../Gambar/Run1)
+![Program pada saat pertama kali dijalankan.](/../Gambar/Run1.png)
 - Program ketika pengguna memasukkan perintah 'Tampilkan_Universitas()' :
-![Program pada saat pertama kali dijalankan.](/../Gambar/Run2)
+![Program pada saat pertama kali dijalankan.](/../Gambar/Run2.png)
 - Program ketika pengguna memasukkan perintah 'Info_Mahasiswa()' :
-![Program pada saat pertama kali dijalankan.](/../Gambar/Run3)
+![Program pada saat pertama kali dijalankan.](/../Gambar/Run3.png)
