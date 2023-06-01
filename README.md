@@ -159,7 +159,7 @@ class Manager:
             data = [nama, nim, jur]
             self.Tambah_Mahasiswa(uni, jur, nama, data)
 ```
-   - Misc (Untuk Memenuhi Pertanyaan 3 - 7)
+   - Misc (Untuk Memenuhi Pertanyaan 2 - 6)
 ```
 #Fungsi yang berguna untuk memenuhi pertanyaan soal
 def Default(Executor):
@@ -203,7 +203,7 @@ Tambah_Mahasiswa()"""
             continue
         Executor.Run(cmnd)
 ```
-   - Pembatas Agar Program hanya jalan jika file program saat ini yang dijalankan : 
+   - Pembatas Agar Program hanya akan berjalan jika file program ini yang dijalankan : 
 ```
 #Percabangan if yang berguna agar ketika file ini diimpor sebagai modul, program dari fungsi main() tidak ada berjalan.
 #Atau, dengan kata lain, program hanya akan berjalan jika file ini yang dieksekusi pertama.
@@ -211,11 +211,32 @@ if __name__ == "__main__":
     main()
 ```
 
-3. Buatlah sebuah objek Universitas dengan nama "XYZ University".
-4. Buatlah objek Jurusan dengan nama "Teknik Informatika" dan tambahkan objek tersebut ke dalam Universitas XYZ.
+2. Buatlah sebuah objek Universitas dengan nama "XYZ University".
+```
+    #Membuat Objek XYZ University.
+    Executor.Tambah_Universitas("XYZ University")
+```
+3. Buatlah objek Jurusan dengan nama "Teknik Informatika" dan tambahkan objek tersebut ke dalam Universitas XYZ.
+```
+    #Membuat Objek Teknik Informatike kemudian memasukkannya ke dalam Objek XYZ University.
+    Executor.Tambah_Jurusan("XYZ University", "Teknik Informatika")
+```
 5. Buatlah objek Mahasiswa dengan nama "Kalian masing", NIM "Kalian masing", dan masukkan ke dalam Jurusan Teknik Informatika di Universitas XYZ.
-6. Tampilkan daftar jurusan yang ada di Universitas XYZ.
-7. Tampilkan daftar mahasiswa yang terdaftar dalam Jurusan Teknik Informatika di Universitas XYZ.
+```
+    #Menambahkan Mahasiswa Alif Nurhidayat Ke Dalam XYZ University
+    Executor.Tambah_Mahasiswa("XYZ University", "Teknik Informatika", "ALIF NURHIDAYAT",
+                              ["ALIF NURHIDAYAT", "G1A022073", "Teknik Informatika"])
+```
+7. Tampilkan daftar jurusan yang ada di Universitas XYZ.
+```
+    #Menampilkan Daftar Jurusan yang ada di XYZ University.
+    Executor.Tampilkan_Jurusan("XYZ University")
+```
+9. Tampilkan daftar mahasiswa yang terdaftar dalam Jurusan Teknik Informatika di Universitas XYZ.
+```
+    #Menampilkan daftar mahasiswa yang terdaftar dalam Jurusan Teknik Informatika di XYZ University.
+    Executor.Tampilkan_Mahasiswa("XYZ University", "Teknik Informatika")
+```
 
 ## Panduan Pengerjaan
 1. tugas di upload ke github dengan folder sesuai nama tugas dan hanya link nya saja yang di tempel di gclas
@@ -234,3 +255,6 @@ if __name__ == "__main__":
 | Tambah_Universitas() | Berfungsi untuk membuat Objek Universitas dan memasukkannya ke DaftarUniversitas |
 | Tambah_Jurusan() | Berfungsi untuk memasukkan Objek Jurusan ke dalam Objek Universitas yang diinginkan oleh pengguna |
 |Tambah_Mahasiswa() | Berfungsi untuk memasukkan Objek Mahasiswa ke dalam Objek Jurusan yang berada di dalam Objek Universitas yang diinginkan oleh pengguna |
+
+## Tampilan Program Saat Dijalankan
+
