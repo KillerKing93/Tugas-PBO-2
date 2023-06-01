@@ -258,10 +258,14 @@ if __name__ == "__main__":
 
 ## Tampilan Program Saat Dijalankan
 - Program pada saat pertama kali dijalankan : 
-![Program pada saat pertama kali dijalankan.](/../Gambar/Run0.png)
+
+![Program pada saat pertama kali dijalankan.](https://github.com/KillerKing93/Tugas-PBO-2/blob/main/Gambar/Run0.png)
 - Program jika pengguna memasukkan perintah 'bantuan' :
-![Program pada saat pertama kali dijalankan.](/../Gambar/Run1.png)
+
+![Program pada saat pertama kali dijalankan.](https://github.com/KillerKing93/Tugas-PBO-2/blob/main/Gambar/Run1.png)
 - Program ketika pengguna memasukkan perintah 'Tampilkan_Universitas()' :
-![Program pada saat pertama kali dijalankan.](/../Gambar/Run2.png)
+
+![Program pada saat pertama kali dijalankan.](https://github.com/KillerKing93/Tugas-PBO-2/blob/main/Gambar/Run2.png)
 - Program ketika pengguna memasukkan perintah 'Info_Mahasiswa()' :
-![Program pada saat pertama kali dijalankan.](/../Gambar/Run3.png)
+
+![Program pada saat pertama kali dijalankan.](https://github.com/KillerKing93/Tugas-PBO-2/blob/main/Gambar/Run3.png)
