@@ -257,4 +257,11 @@ if __name__ == "__main__":
 |Tambah_Mahasiswa() | Berfungsi untuk memasukkan Objek Mahasiswa ke dalam Objek Jurusan yang berada di dalam Objek Universitas yang diinginkan oleh pengguna |
 
 ## Tampilan Program Saat Dijalankan
-
+- Program pada saat pertama kali dijalankan : 
+![Program pada saat pertama kali dijalankan.](https://github.com/KillerKing93/Tugas-PBO-2/tree/main/Gambar/Run0)
+- Program jika pengguna memasukkan perintah 'bantuan' :
+![Program pada saat pertama kali dijalankan.](https://github.com/KillerKing93/Tugas-PBO-2/tree/main/Gambar/Run1)
+- Program ketika pengguna memasukkan perintah 'Tampilkan_Universitas()' :
+![Program pada saat pertama kali dijalankan.](https://github.com/KillerKing93/Tugas-PBO-2/tree/main/Gambar/Run2)
+- Program ketika pengguna memasukkan perintah 'Info_Mahasiswa()' :
+![Program pada saat pertama kali dijalankan.](https://github.com/KillerKing93/Tugas-PBO-2/tree/main/Gambar/Run3)
